@@ -8,12 +8,14 @@ export const metadata: Metadata = {
   description:
     "인천 미추홀구 학익동 시티오씨엘 9단지. 최고 49층 9개동 총 1,949세대(전용 59~136㎡). 분양 상담 1800-7159.",
   openGraph: {
+    url: "/",
     title: `${SITE.name} | 분양 문의 ${SITE.tel}`,
     description: "최고 49층 9개동 총 1,949세대. 시티오씨엘, 마침내 정점.",
     images: [{ url: "/images/og.jpg", width: 1200, height: 630 }],
     locale: "ko_KR",
     type: "website",
   },
+  alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   formatDetection: { telephone: false },
 };
