@@ -8,7 +8,7 @@ export const SITE = {
   telHref: "tel:18007159",
   // SMS 수신번호 — 연속 문자열로 두지 말 것 (lib/sms.ts에서 조립)
   smsParts: ["010", "8168", "7861"],
-  url: "https://cityociel9-omega.vercel.app",
+  url: "https://cityociel9-oceanparkview.vercel.app",
 };
 
 // TODO(분양대행사 정보 수급 후 입력) — 비어 있으면 푸터·개인정보처리방침에 해당 줄을 렌더링하지 않음
